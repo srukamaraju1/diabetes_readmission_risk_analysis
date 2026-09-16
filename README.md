@@ -34,3 +34,10 @@ Findings
 2. Patients with more prior inpatient visits in the prior year showed a substantially elevated readmission risk, supporting prior-utilization as strong predictive signal.
 3. Discharge disposition mattered significantly .Patients discharged to certain facility showed measurably different readmission rates than those discharged home.
 4. Findings around medication changes at discharge and A1C testing during the stay both align with the original clinical research question this dataset was collected to investigate.
+
+
+Recommendations
+
+- Focus discharge planning and follow-up on patients with the highest-risk based on past hospital visits.
+- Give extra care coordination to patients with heart/circulatory conditions and diabetes given they have higher readmission rates.
+- Review discharge processes at facilities with high readmission rates to find areas that could be improved.
