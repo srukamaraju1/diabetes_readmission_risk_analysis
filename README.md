@@ -26,3 +26,11 @@ Key SQL techniques used
 - CASE-based tiering to convert continuous variables into business-readable risk categories.
 - Correlated subqueries with HAVING to isolate diagnosis categories performing above the population-wide average
 - Multi-table Joins against ID-mapping reference tables to convert numeric codes into readable labels
+
+
+Findings
+
+1. Circulatory and diabetes diagnoses had the highest readmission rates among all diagnosis categories, and both exceeded the average readmission rate.
+2. Patients with more prior inpatient visits in the prior year showed a substantially elevated readmission risk, supporting prior-utilization as strong predictive signal.
+3. Discharge disposition mattered significantly .Patients discharged to certain facility showed measurably different readmission rates than those discharged home.
+4. Findings around medication changes at discharge and A1C testing during the stay both align with the original clinical research question this dataset was collected to investigate.
