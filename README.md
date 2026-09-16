@@ -17,3 +17,12 @@ Approach/Methodology
 - Exploratory Analysis: Established baseline readmission rates by age, admission type and diagnosis category.
 - Advanced Analysis: Built a reusable high-risk patient group with CTE, applied window function to rank patients by risk, grouped them by medication use and number of diagnoses, and found diagnosis categories with above average readmission rates.
 - Findings: Summarized the results into four key findings that connect back to the main business problem
+
+
+Key SQL techniques used
+
+- CTEs to stage a clean, reusable risk cohort across multiple queries
+- Window Functions: RANK() OVER (PARTITION BY) to rank medication burden within age groups, NTILE(4) to build risk quartiles
+- CASE-based tiering to convert continuous variables into business-readable risk categories.
+- Correlated subqueries with HAVING to isolate diagnosis categories performing above the population-wide average
+- Multi-table Joins against ID-mapping reference tables to convert numeric codes into readable labels
